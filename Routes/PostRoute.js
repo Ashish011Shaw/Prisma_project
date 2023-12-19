@@ -10,5 +10,11 @@ module.exports=[
         method: 'GET',
         path: '/get-all-post',
         handler: controller.fetchPost
+    },
+    {
+        method: 'GET',
+        path: '/search-post',
+        handler: controller.searchPost,
     }
+    
 ]
